@@ -1,0 +1,9 @@
+self:
+  name: otiai10/ocr-workflow
+inputs:
+  EXAMPLE_IMAGE:
+    type: File
+outpus:
+  OUTPUT_TEXT:
+    type: File
+    as: output.txt
